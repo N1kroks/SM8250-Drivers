@@ -4,6 +4,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Device\DEVICE.SOC_QC8250.ALIOTH\Extensions\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\HALs" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
@@ -22,6 +23,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\SOC\System" Name="qckmbam8150.inf" ID="qckmbam8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\SOC\System" Name="qcscm8150.inf" ID="qcscm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8150.inf" ID="qcadc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE\Source\Drivers\Battery" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE\Source\Drivers\Battery" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE\Source\Drivers\Battery" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE\Source\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm.inf" ID="qcthermalmdm"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE\Source\Drivers\GPS" Name="qcgnss8150.inf" ID="qcgnss8150"/>
         </BaseDriverPackages>
