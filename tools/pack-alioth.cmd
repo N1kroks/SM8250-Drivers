@@ -20,6 +20,7 @@ echo apps\IPA > filelist_alioth.txt
 echo CODE_OF_CONDUCT.md >> filelist_alioth.txt
 echo components\ANYSOC\Changelog >> filelist_alioth.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_alioth.txt
+echo components\QC8250\Device\DEVICE.SOC_QC8250.ALIOTH >> filelist_alioth.txt
 echo components\QC8250\Device\DEVICE.SOC_QC8250.ALIOTH_MINIMAL >> filelist_alioth.txt
 echo components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE >> filelist_alioth.txt
 echo components\QC8250\Platform\PLATFORM.SOC_QC8250.BASE_MINIMAL >> filelist_alioth.txt
